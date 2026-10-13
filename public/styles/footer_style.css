@@ -1,0 +1,85 @@
+#footer_content {
+    background-image: linear-gradient(
+        rgb(0, 62, 113),
+        rgb(0, 21, 51)
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.pages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.pages ul a {
+    color:white;
+}
+
+.pages ul a:hover {
+    color:rgb(0, 153, 255);
+    text-decoration: underline;
+}
+
+.pages ul a:active {
+    color:rgb(0, 31, 74);
+}
+
+.socials ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.social_btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    outline: 2px solid rgb(9, 146, 196);
+    background-color: white;
+
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16pt;
+}
+
+.social_btn:hover {
+    background-color: rgb(208, 208, 208);
+}
+
+.legal {
+    color:rgba(255, 255, 255, 0.678);
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.legal p {
+    margin: 0;
+}
+
+img {
+    height: clamp(40px, 5vw, 70px);
+    width: auto;
+}
+
+hr {
+    color: white;
+}
+
+@media screen and (max-width:900px) {
+    .pages {
+        margin-top: 10px;
+    }
+}
